@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
+
+    <div class="container left">
+      <h1>Calculator</h1>
+      <hr>
+      <p>This is a calculator ! <br><br>
+        It allows you to make some additions, substractions, multiplications & divisions. By entering two multiplications symbols, you can also use the power functionality. However, there is a theme system to give you the choice between three colors : <br>
+        <b style = "color: rgb(255, 37, 37)">Red</b>, <b style = "color: rgb(72, 255, 0)">Green</b>, and <b style = "color: rgb(0, 195, 255)">Blue</b>. <br><br>
+        Enjoy your mathematics !</p>
+      <hr>
+    </div>
+
+    <div class="container right">
+      <div id="background-animation"></div>
+      <h2>Theme</h2>
+      <div id = "input-container">
+        <div class="color-theme" id = "red"></div>
+        <div class="color-theme" id = "green"></div>
+        <div class="color-theme" id = "blue"></div>
+      </div>
+
+      <div class="calculator">
+        <div id="display"></div>
+        <div id="button">
+          <button class = "other">C</button>
+          <button class = "other">/</button>
+          <button class = "other">*</button>
+          <button class = "other">&larr;</button>
+  
+          <button>7</button>
+          <button>8</button>
+          <button>9</button>
+          <button class = "other">-</button>
+  
+          <button>4</button>
+          <button>5</button>
+          <button>6</button>
+          <button class = "other">+</button>
+  
+          <button>1</button>
+          <button>2</button>
+          <button>3</button>
+          <button class = "other">.</button>
+  
+          <button class = "other">&lpar;</button>
+          <button>0</button>
+          <button class = "other">&rpar;</button>
+          <button id = "equal" class = "other">=</button>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+    <script src="https://kit.fontawesome.com/ae2dcfe765.js" crossorigin="anonymous"></script>
+  </body>
+</html>
